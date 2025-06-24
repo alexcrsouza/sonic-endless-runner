@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="30" viewBox="0 0 80 30">
+  <!-- Frame 1 (0-40px): Asas para cima -->
+  <rect x="0" y="0" width="40" height="30" fill="none"/>
+  <path d="M10,15 L20,10 L30,15 L20,20 Z" fill="#535353"/>
+  <path d="M5,15 C5,12 8,10 10,10 L10,20 C8,20 5,18 5,15 Z" fill="#535353"/>
+  <circle cx="8" cy="15" r="1" fill="white"/>
+  
+  <!-- Frame 2 (40-80px): Asas para baixo -->
+  <rect x="40" y="0" width="40" height="30" fill="none"/>
+  <path d="M50,15 L60,5 L70,15 L60,25 Z" fill="#535353"/>
+  <path d="M45,15 C45,12 48,10 50,10 L50,20 C48,20 45,18 45,15 Z" fill="#535353"/>
+  <circle cx="48" cy="15" r="1" fill="white"/>
+</svg>

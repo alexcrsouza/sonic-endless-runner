@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Sonic</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo do Sonic</h1>
+        <div class="game-container">
+            <div id="score">Score: 0</div>
+            <div id="high-score">High Score: 0</div>
+            <div id="game-over" class="hidden">Game Over! <button id="restart">Reiniciar</button></div>
+            <div id="game-area">
+                <div id="game-background"></div>
+                <div id="dino" class="running"></div>
+            </div>
+        </div>
+        <div class="instructions">
+            <p>Pressione a tecla ESPAÇO ou toque na tela para pular os obstáculos!</p>
+            <p>Pressione P para pausar/retomar o jogo.</p>
+            <p>Colete power-ups azuis para ficar invencível temporariamente.</p>
+            <p>Colete power-ups vermelhos para ganhar uma vida extra.</p>
+            <p>Clique no botão abaixo para iniciar:</p>
+            <button id="start-game">Iniciar Jogo</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html>

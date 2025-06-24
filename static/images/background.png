@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150">
+  <rect x="0" y="0" width="1000" height="150" fill="#f7f7f7"/>
+  <path d="M0,149 L1000,149" stroke="#535353" stroke-width="1"/>
+  
+  <!-- Montanhas ao fundo -->
+  <path d="M0,149 L50,100 L100,149" fill="#e5e5e5"/>
+  <path d="M100,149 L200,50 L300,149" fill="#e5e5e5"/>
+  <path d="M350,149 L400,120 L450,149" fill="#e5e5e5"/>
+  <path d="M500,149 L600,80 L700,149" fill="#e5e5e5"/>
+  <path d="M750,149 L800,100 L850,149" fill="#e5e5e5"/>
+  <path d="M900,149 L950,120 L1000,149" fill="#e5e5e5"/>
+</svg>
